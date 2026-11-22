@@ -13,7 +13,7 @@ import {
   Building2,
 } from "lucide-react";
 
-const API = "http://localhost:8080/api/students";
+const API = "https://student-management-backend-7mlc.onrender.com/api/students";
 
 const initialForm = {
   name: "",
