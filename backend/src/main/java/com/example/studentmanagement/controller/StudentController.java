@@ -3,7 +3,6 @@ package com.example.studentmanagement.controller;
 
 import java.util.List;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,10 +17,6 @@ import com.example.studentmanagement.service.StudentService;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin(origins = {
-    "http://localhost:5173",
-    "https://student-management-app-hqu6.vercel.app"
-})
 public class StudentController {
 
     private final StudentService service;
