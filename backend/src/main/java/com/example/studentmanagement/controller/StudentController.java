@@ -18,7 +18,10 @@ import com.example.studentmanagement.service.StudentService;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://student-management-app-hqu6.vercel.app"
+})
 public class StudentController {
 
     private final StudentService service;
