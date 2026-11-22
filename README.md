@@ -2,6 +2,12 @@
 
 A full-stack Student Management System built using **React.js, Spring Boot, and MySQL**. This application helps manage student records through a clean and responsive dashboard.
 
+
+## Screenshots
+
+### Dashboard
+![Dashboard](Screenshot/dashboard.png)
+
 ## Features
 
 - **Dashboard:** View total students, courses, and departments.
